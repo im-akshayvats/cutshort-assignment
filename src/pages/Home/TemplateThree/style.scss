@@ -1,0 +1,26 @@
+div.cardsWrapper {
+  width: 480px;
+  > div {
+    border: 2px solid #f6f7fa;
+    border-radius: 10px;
+    cursor: pointer;
+    user-select: none;
+    width: 40%;
+    padding: 2em 1em;
+    img {
+      height: 50px;
+      width: 50px;
+      margin-bottom: 1.5em;
+    }
+    h4 {
+      margin-bottom: 1em;
+    }
+    p {
+      margin-bottom: 0;
+      color: grey;
+    }
+  }
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2em;
+}

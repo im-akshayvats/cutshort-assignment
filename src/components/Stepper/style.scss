@@ -1,0 +1,39 @@
+div.stepperWrapper {
+  width: 420px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  div.sliderOuter {
+    width: calc(100% - 50px);
+    background-color: #f2f4f9;
+    position: absolute;
+    div.sliderInner {
+      height: 2px;
+      background-color: #664de5;
+      position: relative;
+      transition: 1s ease-in-out all;
+    }
+  }
+  ul.steps {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+    list-style: none;
+    li {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: white;
+      color: black;
+      border: 3px solid #f2f4f9;
+      border-radius: 50%;
+      font-size: 1.5em;
+      height: 40px;
+      width: 40px;
+      transition: 0.75s ease-in-out all;
+    }
+  }
+}

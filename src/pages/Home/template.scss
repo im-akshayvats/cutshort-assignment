@@ -1,0 +1,39 @@
+.template {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  h1 {
+    font-size: 2em;
+    margin: 2em 0 0.5em 0;
+  }
+  p {
+    margin-bottom: 2.5em;
+    font-weight: bold;
+    color: grey;
+    font-size: 0.95em;
+  }
+  div.inputBox {
+    width: 480px;
+    margin-bottom: 2em;
+    h5 {
+      margin-bottom: 0.5em;
+      span {
+        color: grey;
+      }
+    }
+    input {
+      outline: none;
+      padding: 1em;
+      width: calc(100% - 2em);
+      border: 2px solid #eff2f8;
+      border-radius: 5px;
+    }
+    div.workspaceWrapper {
+      display: flex;
+      input:first-child {
+        width: 30%;
+      }
+    }
+  }
+}
