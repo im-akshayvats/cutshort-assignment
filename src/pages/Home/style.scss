@@ -26,3 +26,17 @@ section.onboardingExploration {
     user-select: none;
   }
 }
+
+@media only screen and (max-width: 600px) {
+  section.onboardingExploration {
+    button.btn {
+      width: 320px;
+    }
+  }
+}
+
+@media only screen and (max-height: 720px) {
+  section.onboardingExploration {
+    height: 720px;
+  }
+}

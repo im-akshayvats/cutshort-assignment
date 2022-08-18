@@ -7,13 +7,13 @@ function TemplateTwo() {
       <p>You can always create another workspace later.</p>
       <div className='inputBox'>
         <h5>Workspace Name</h5>
-        <input type="text" placeholder='Akshay' />
+        <input type="text" placeholder='Eden' />
       </div>
       <div className='inputBox'>
         <h5>Workspace URL <span>(optional)</span></h5>
         <div className="workspaceWrapper">
-          <input type="text" value='www.eden.com' disabled/>
-          <input type="text" placeholder='Akshay' />
+          <input type="text" value='www.eden.com/' disabled/>
+          <input type="text" placeholder='Example' />
         </div>
       </div>
     </div>

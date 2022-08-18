@@ -24,3 +24,12 @@ div.cardsWrapper {
   justify-content: space-between;
   margin-bottom: 2em;
 }
+
+@media only screen and (max-width: 600px) {
+  div.cardsWrapper {
+    width: 320px;
+    > div {
+      padding: 1.5em 0.75em;
+    }
+  }
+}
